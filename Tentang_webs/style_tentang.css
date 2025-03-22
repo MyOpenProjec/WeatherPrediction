@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('Wallpaper-01.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header, footer {
+    background-color: #4F959D;
+    color: #fff;
+    padding: 10px 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    color: #205781;
+    transition: 0.5s ease-in-out;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .container .input, .container #hasil_Prediksi {
+        width: 90%;
+    }
+
+    .container .submit {
+        width: 90%;
+    }
+}
+
+
+section#tentang {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(79, 149, 157, 0.8);
+    border-radius: 20px;
+    max-width: 800px;
+    text-align: center;
+}
+
+section#tentang h2 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+section#tentang p {
+    font-size: 18px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .container .input, .container #hasil_Prediksi {
+        width: 90%;
+    }
+
+    .container .submit {
+        width: 90%;
+    }
+
+    section#tentang {
+        width: 90%;
+        padding: 15px;
+    }
+
+    section#tentang h2 {
+        font-size: 24px;
+    }
+
+    section#tentang p {
+        font-size: 16px;
+    }
+}

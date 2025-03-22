@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('Wallpaper-01.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header, footer {
+    background-color: #4F959D;
+    color: #fff;
+    padding: 10px 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    color: #205781;
+    transition: 0.5s ease-in-out;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.container {
+    display: block;
+    margin-top: 10vh;
+    margin-left: 10px;
+}
+
+.container h2 {
+    font-size: 30px;
+    color: #205781;
+}
+
+.container p {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.container .input {
+    width: 30%;
+    padding: 10px;
+    border: 0.5px solid #205781;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.container .submit {
+    padding: 10px 20px;
+    border: 0.5px solid #205781;
+    border-radius: 20px;
+    background-color: #205781;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container .submit:hover {
+    background-color: #fff;
+    color: #205781;
+    transition: 0.5s ease-in-out;
+}
+
+.container #hasil_Prediksi {
+    background-color: #205781;
+    color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    word-wrap: break-word;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .container .input, .container #hasil_Prediksi {
+        width: 90%;
+    }
+
+    .container .submit {
+        width: 90%;
+    }
+}
